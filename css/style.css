@@ -1,0 +1,130 @@
+.header{
+    display: block;
+    background-color: #FFFFFF;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+body{
+    height: 2000px;
+}
+.header-logo{
+    line-height:30px;
+
+    
+}
+.header-logo img{
+    width:50%
+
+}
+.navbar-nav{
+    margin-left:40%;
+}
+.navbar-nav li{
+    padding-left: 10px;
+}
+.banner{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    background-image:url(../img/background.jpeg)
+}
+.text{padding-top: 20%;
+   
+}
+.srch
+{
+    height: 40px;
+    width: 40%;
+}
+.bt{
+   margin-left:-3px;
+    height: 41px;
+    width: 17%;
+line-height: 0;
+position: absolute;
+left: 69%;
+    
+}
+
+.img1{
+    position: absolute;
+    top: 30px;
+    left:40px
+}
+.img2{
+    position: absolute;
+    bottom:18%;
+    left:10%;
+}
+.img3{
+    position: absolute;
+    bottom:30px;
+    right:200px;
+    z-index:1;
+    
+}
+.img4{
+    position: absolute;
+    top:0px;
+    right:100px;
+}
+
+.advertise{
+border-bottom: 1px solid grey;
+}
+.float-right{
+    float: right;
+}
+listing{
+    width:30%;
+}
+
+.listing_photo{width: 100%; height: 100%;;overflow: hidden;}
+
+.listing_photo img:hover{
+    transform:scale(1.4);transition: 0.9s
+}
+.title:hover{color: green;}
+.banner2
+{
+    background-color: #000;
+    height: 40vh;
+    background: url(../img/bg2.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.About{
+    width: 50%;
+    margin: auto;
+}
+.btn--primary{
+background: #fd0 !important;
+    color: #2d2c2c !important;}
+.fotter{
+    border: 1px solid grey;
+   
+}
+.list-unstyled li a{
+text-decoration: none;
+color: #000;
+}
+
+
+
+ @media only screen and (max-width: 480px) {
+
+.topbt{
+    display: none;
+}
+.img1{display:none;}
+.img4{display:none;}
+.img3{display:none;}
+.butn{
+    display: none;
+}
+
+ }
